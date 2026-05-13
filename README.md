@@ -8,14 +8,6 @@ Data-driven pricing and profitability analysis of a simulated ride-hailing platf
 - Reduced unprofitable trip scenarios by up to 20%
 - Evaluated peak-hour and short-trip margin performance
 
-
-## Project Overview
-
-This project analyzes ride-level pricing within a simulated Nairobi ride-hailing environment. The objective was to identify profitability drivers, evaluate operational inefficiencies, and simulate pricing strategies that could improve margins.
-
-The analysis focuses on how trip distance, duration, traffic conditions, and pricing structures influence profitability across thousands of rides.
-
----
 # Sample Visualizations
 
 ## Profit Margin Distribution
@@ -25,6 +17,18 @@ The analysis focuses on how trip distance, duration, traffic conditions, and pri
 ## Profit vs Distance
 
 ![Profit vs Distance](visuals/profit_vs_distance.png)
+
+## Peak vs Offpeak Profit
+
+![Peak vs Offpeak Profit](peak_vs_offpeak_profit.png)
+
+---
+
+## Project Overview
+
+This project analyzes ride-level pricing within a simulated Nairobi ride-hailing environment. The objective was to identify profitability drivers, evaluate operational inefficiencies, and simulate pricing strategies that could improve margins.
+
+The analysis focuses on how trip distance, duration, traffic conditions, and pricing structures influence profitability across thousands of rides.
 
 ---
 # Objectives
@@ -40,29 +44,10 @@ The analysis focuses on how trip distance, duration, traffic conditions, and pri
 
 # Tools Used
 
-- Python
-- Pandas
-- Matplotlib
-- Excel
-- GitHub
-
----
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
 ![Status](https://img.shields.io/badge/Project-Completed-success)
-
-# Project Structure
-
-```text
-ride-pricing-optimization/
-│
-├── data/
-├── scripts/
-├── visuals/
-├── notebooks/
-└── README.md
-```
 
 ---
 
@@ -97,13 +82,12 @@ The simulations were used to evaluate:
 - Margin performance changes
 
 ---
-
-# Key Insights
+# Key Findings
 
 - A significant share of trips generated low or negative margins
 - Short-distance rides contributed disproportionately to margin leakage
 - Peak-hour trips generated higher revenue but also higher operational costs
-- Pricing adjustments on short trips improved overall profitability
+- Pricing adjustments on short trips improved average profitability by 12–18%
 
 ---
 
@@ -113,10 +97,35 @@ The simulations were used to evaluate:
 - Optimize surge pricing during congestion-heavy periods
 - Evaluate operational efficiency during peak traffic hours
 - Balance platform profitability against driver incentive structures
+- Selected simulations reduced loss-making trips by approximately 20%
 
 ---
 
+
+# Project Structure
+
+```text
+ride-pricing-optimization/
+│
+├── data/
+├── scripts/
+├── visuals/
+├── notebooks/
+└── README.md
+```
+
+---
+
+
 # Visualizations
+
+## Peak vs Offpeak Profit
+
+![Peak vs Offpeak Profit](peak_vs_offpeak_profit.png)
+
+## Profit Distributuion
+
+![Profit Distribution](profit_distribution.png)
 
 ## Profit Margin Distribution
 
