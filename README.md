@@ -20,7 +20,7 @@ Data-driven pricing and profitability analysis of a simulated ride-hailing platf
 
 ## Peak vs Offpeak Profit
 
-![Peak vs Offpeak Profit](peak_vs_offpeak_profit.png)
+![Peak vs Offpeak Profit](visuals/peak_vs_offpeak_profit.png)
 
 ---
 
