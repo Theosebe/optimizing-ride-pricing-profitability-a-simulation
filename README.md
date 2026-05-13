@@ -121,11 +121,11 @@ ride-pricing-optimization/
 
 ## Peak vs Offpeak Profit
 
-![Peak vs Offpeak Profit](peak_vs_offpeak_profit.png)
+![Peak vs Offpeak Profit](visuals/peak_vs_offpeak_profit.png)
 
 ## Profit Distributuion
 
-![Profit Distribution](profit_distribution.png)
+![Profit Distribution](visuals/profit_distribution.png)
 
 ## Profit Margin Distribution
 
