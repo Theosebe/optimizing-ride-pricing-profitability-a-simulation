@@ -74,7 +74,6 @@ Visualizations were developed to evaluate:
 Several pricing scenarios were tested:
 - Increasing short-trip fares
 - Adjusting peak-hour pricing
-- Modifying driver payout structures
 
 The simulations were used to evaluate:
 - Average profit improvement
