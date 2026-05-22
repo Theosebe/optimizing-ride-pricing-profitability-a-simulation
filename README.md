@@ -1,6 +1,6 @@
 # Optimizing Ride Pricing and Profitability - A simulation
 
-Data-driven pricing and profitability analysis of a simulated ride-hailing platform using Python, Pandas, and pricing scenario simulations.
+Pricing analysis of a simulated ride-hailing platform, including profitability analysis, operational insights, and pricing scenario simulations..
 
 ## Key Highlights
 - Analyzed 10,000+ ride-level records
