@@ -28,7 +28,7 @@ Pricing analysis of a simulated ride-hailing platform, including profitability a
 
 This project analyzes ride-level pricing within a simulated Nairobi ride-hailing environment. The objective was to identify profitability drivers, evaluate operational inefficiencies, and simulate pricing strategies that could improve margins.
 
-The analysis focuses on how trip distance, duration, traffic conditions, and pricing structures influence profitability across thousands of rides.
+The analysis focuses on how trip distance, trip duration, surge pricing, driver payouts and fuel costs influence profitability across thousands of rides.
 
 ---
 # Objectives
