@@ -2,7 +2,10 @@
 
 Pricing analysis of a simulated ride-hailing platform, including profitability analysis, operational insights, and pricing scenario simulations.
 
-## Key Highlights
+# Key Business Insight
+Contrary to common assumptions, the analysis suggested that short-distance trips with active surge multipliers could generate higher contribution margins than longer-distance trips operating under standard pricing conditions. This highlighted the importance of pricing efficiency, demand concentration, and trip turnover in ride-hailing marketplace profitability.
+
+## Highlights
 - Analyzed 10,000+ ride-level records
 - Simulated pricing optimization strategies
 - Reduced unprofitable trip scenarios by up to 20%
@@ -81,7 +84,7 @@ The simulations were used to evaluate:
 - Margin performance changes
 
 ---
-# Key Findings
+# Findings
 
 - A significant share of trips generated low or negative margins
 - Short-distance rides contributed disproportionately to margin leakage
