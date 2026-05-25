@@ -17,6 +17,31 @@ The findings challenge two common assumptions:
 
 Both are false. The data points to a single structural cause — and a narrow but highly actionable fix.
 
+## Assumptions & Analytical Boundaries
+
+> Readers applying these findings to live operational data should validate each assumption against their own cost structure and market context before drawing strategic conclusions. These assumptions connect directly to pricing behaviour, operational costs, rider demand, profitability logic and simulation structure.
+
+### 1. Modelling Assumptions
+- Trip-level profitability was evaluated independently for each ride without modeling broader marketplace balancing dynamics such as fleet allocation or driver queueing behavior.
+- Simulated ride patterns were assumed to reasonably approximate real world ride hailing behavior across trip distance, duration, demand fluctuations, and operational exposure.
+- Profitability analysis focused primarily on variable ride level economics and excluded broader corporate overhead costs such as marketing, engineering, customer support, and platform infrastructure expenses.
+- Revenue, cost and profitability relationships were modeled using deterministic operational logic to simplify scenario comparison across ride categories.
+
+### 2. Pricing Assumptions
+ - Fare was the sole revenue input — no tips, cancellation fees, or subscription offsets are modelled. 
+ - Surge multiplier was treated as observed, not modelled — the analysis measures its effect on margins but does not simulate rider price sensitivity or surge setting logic. 
+ - Breakeven threshold was derived empirically from the data at approximately 1.4× surge — below this, no trip in the dataset is profitable. 
+ - Peak hours were profitable because surge is active during them, not simply because of clock time — the designation is data-driven, not externally imposed. 
+ - Minimum fare thresholds and dynamic pricing corridors are not modelled — fares were taken as given. 
+
+### 3. Operational Assumptions
+- Fuel costs were assumed to increase proportionally with trip distance and duration, reflecting higher operational exposure during congestion-heavy trips.
+- Driver payouts were modeled as a major variable operating cost and followed simplified payout structures across ride scenarios.
+- Driver availability was assumed to remain operationally stable across peak and off-peak demand periods.
+- Longer trip durations were assumed to reduce operational efficiency by increasing fuel exposure and limiting ride turnover capacity.
+- Peak-hour conditions were assumed to introduce higher congestion exposure and longer trip completion times.
+
+
 ## Project Objectives
 The objective of this analysis was to identify:
 1. Which trips are most profitable
