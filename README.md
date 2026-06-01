@@ -74,7 +74,7 @@ Data Simulation → Exploratory Analysis → Profitability Analysis → Scenario
 | Granularity | Individual trip level |
 
 | Overall Metric | Business Purpose | Why it matters
-|---|---|
+|---|---|---|
 | Distance (km) | Measures trip length and operational exposure | Distance affects fuel consumption, driver payouts, and overall cost efficiency across rides. |
 | Duration (minutes) | Evaluates time efficiency of trips | Longer durations reduce driver utilization efficiency and may compress profit margins during congestion-heavy periods. |
 | Surge Multiplier | Captures dynamic pricing adjustments | Surge pricing helps compensate for elevated demand, traffic exposure, and driver scarcity during peak periods. |
