@@ -1,5 +1,5 @@
 # Ride Pricing and Unit Economics Analysis
-##Investigating the unit economics why 57.6% of trips lose money and what pricing architecture can fix it
+Investigating the unit economics why 57.6% of trips lose money and what pricing architecture can fix it
 
 ## The Business Problem
 Ride hailing platforms are one of the most scrutinised business models in modern commerce. 
