@@ -8,8 +8,7 @@ In context — Uber lost over $20bn before reaching profitability and unit econo
 This investigation examines a simulation of 10,000+ trips from a 
 KES-denominated ride hailing platform to answer one central question:
 
-**What operational and pricing factors drive profitability, and which 
-pricing strategies best reduce unprofitable trips?**
+**What operational and pricing factors drive profitability, and which pricing strategies best reduce unprofitable trips?**
 
 The findings challenge two common assumptions:
 - That short trips are inherently unprofitable
@@ -114,7 +113,6 @@ The analysis was centered around a set of operational and profitability metrics 
 | Margin Compression Exposure | Identifies ride scenarios where costs grow faster than revenue | Highlights operational conditions that weaken profitability efficiency despite increasing ride revenue. |
 
 
-
 # Key Business Insight
 Contrary to common assumptions, the analysis suggested that short-distance trips with active surge multipliers could generate higher contribution margins than longer-distance trips operating under standard pricing conditions. This highlighted the importance of pricing efficiency, demand concentration, and trip turnover in ride-hailing marketplace profitability.
 
@@ -157,7 +155,6 @@ The analysis focuses on how trip distance, trip duration, surge pricing, driver 
 - Assess operational margin performance
 
 ---
-
 
 
 ## Project Workflow
