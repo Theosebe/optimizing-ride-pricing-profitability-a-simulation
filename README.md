@@ -242,7 +242,21 @@ Distance contributes to revenue generation but also increases operational exposu
 ### Profit per Minute vs Duration
 Profit per minute was used as a measure of operational efficiency. The Analysis revealed that longer trips did not consistently generate higher profitability efficiency despite producing more total revenue. The highest profit-per-minute outcomes were concentrated among shorter duration rides, suggesting that operational efficiency and pricing structure play a greater role in profitability than trip duration alone.
 This finding indicates that targeted pricing interventions may be more effective than uniform fare increases when improving platform profitability.
+![Profit per Minute vs Duration](visuals/profit_per_minute_vs_duration.png)
 
+### Surge Multiplier vs Profit Margin
+A strong positive relationship was observed between surge pricing and profitability. Trips operating under higher surge multipliers consistently achieved stronger margins, while the majority of severely unprofitable rides occurred under low-surge conditions.
+The analysis suggests that dynamic pricing is an effective mechanism for mitigating margin leakage during periods of elevated demand. However, the persistence of some negative margin rides at higher surge levels indicates that pricing alone is insufficient and must be complemented by operational efficiency improvements.
+![surge vs margin](surge_vs_margin.png)
+**Key Insight:** Increasing surge multipliers from approximately 1.0x to 1.8x shifted average trip profitability from predominantly break even or negative margins toward consistently positive margin outcomes, demonstrating the importance of dynamic pricing in ride hailing unit economics.
+
+### Profitability by Trip Segment
+Trips were segmented into short (0–5 km), medium (5–15 km), and long-distance (15+ km) categories to evaluate margin performance across ride types. Contrary to the initial expectation that shorter trips may be more profitable due to faster turnover, the analysis showed that short distance rides generated the weakest average margins. Long distance trips produced the strongest average profitability outcomes, while short trips exhibited the greatest margin compression.
+![Average profit margin vs Trip segment](trip_segment_profitability.png)
+**Key Insight:** Many short trips are being priced too close to cost, causing margin leakage despite their operational efficiency.
+
+
+This suggests that short-distance rides are particularly vulnerable to pricing inefficiencies and represent the largest opportunity for targeted pricing optimization.
 ---
 
 # Future Improvements
