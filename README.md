@@ -4,9 +4,10 @@ Investigating the unit economics why 57.6% of trips lose money and what pricing 
 ## The Business Problem
 Ride hailing platforms are one of the most scrutinised business models in modern commerce. 
 In context — Uber lost over $20bn before reaching profitability and unit economics remain fragile across emerging markets. The platforms operate within highly compressed margins where profitability is influenced by balancing dynamic pricing, operational costs, traffic exposure and driver compensation structures.
+How can pricing and unit economics be optimized to improve ride profitability?
 
 This investigation examines a simulation of 10,000+ trips from a 
-KES-denominated ride hailing platform to answer one central question:
+KES denominated ride hailing platform to answer one central question:
 
 **What operational and pricing factors drive profitability, and which pricing strategies best reduce unprofitable trips?**
 
@@ -89,7 +90,6 @@ Data Simulation → Exploratory Analysis → Profitability Analysis → Scenario
  # Core Unit Economics Metrics
 The analysis was centered around a set of operational and profitability metrics used to evaluate the efficiency and sustainability of ride-level economics within the simulated platform.
 
-
 | Core Metric | Definition | Why It Matters |
 |---|---|---|
 | Contribution margin | Profit ÷ Fare | Normalises across fare levels |
@@ -112,9 +112,8 @@ The analysis was centered around a set of operational and profitability metrics 
 | Surge Efficiency Ratio | Measures profitability improvement relative to surge multiplier increases | Helps assess whether dynamic pricing mechanisms are sufficiently optimizing revenue during peak-demand conditions. |
 | Margin Compression Exposure | Identifies ride scenarios where costs grow faster than revenue | Highlights operational conditions that weaken profitability efficiency despite increasing ride revenue. |
 
-
 # Key Business Insight
-Contrary to common assumptions, the analysis suggested that short-distance trips with active surge multipliers could generate higher contribution margins than longer-distance trips operating under standard pricing conditions. This highlighted the importance of pricing efficiency, demand concentration, and trip turnover in ride-hailing marketplace profitability.
+Contrary to common assumptions, the analysis suggested that longer rides were not consistently the most profitable on a time adjusted basis. Several short rides generated significantly higher profit per minute, highlighting the importance of pricing efficiency and operational turnover in ride hailing unit economics.
 
 ## Highlights
 - Analyzed 10,000+ ride-level records
@@ -140,7 +139,7 @@ Contrary to common assumptions, the analysis suggested that short-distance trips
 
 ## Project Overview
 
-This project analyzes ride-level pricing within a simulated Nairobi ride-hailing environment. The objective was to identify profitability drivers, evaluate operational inefficiencies, and simulate pricing strategies that could improve margins.
+This project analyzes ride level pricing within a simulated Nairobi ride hailing environment. The objective was to identify profitability drivers, evaluate operational inefficiencies, and simulate pricing strategies that could improve margins.
 
 The analysis focuses on how trip distance, trip duration, surge pricing, driver payouts and fuel costs influence profitability across thousands of rides.
 
@@ -221,7 +220,7 @@ ride-pricing-optimization/
 
 ---
 
-
+# Exploratory Data Analysis
 # Visualizations
 
 ## Peak vs Offpeak Profit
@@ -229,16 +228,20 @@ ride-pricing-optimization/
 ![Peak vs Offpeak Profit](visuals/peak_vs_offpeak_profit.png)
 
 ## Profit Distributuion
-
+This visualization shows the distribution of ride level profitability across the simulated platform. While many rides generated positive profit, a noticeable portion clustered near breakeven levels, indicating potential margin vulnerability.
 ![Profit Distribution](visuals/profit_distribution.png)
 
-## Profit Margin Distribution
-
+### Profit Margin Distribution
+Profit margin provides a normalized profitability measure across trips of different sizes. The distribution highlights margin variability and identifies areas where pricing and cost structures may be insufficient.
 ![Profit Margin Distribution](visuals/profit_margin_distribution.png)
 
-## Profit vs Distance
-
+### Profit vs Distance
+Distance contributes to revenue generation but also increases operational exposure. This visualization tests whether longer rides consistently deliver stronger profitability outcomes.
 ![Profit vs Distance](visuals/profit_vs_distance.png)
+
+### Profit per Minute vs Duration
+Profit per minute was used as a measure of operational efficiency. The Analysis revealed that longer trips did not consistently generate higher profitability efficiency despite producing more total revenue. The highest profit-per-minute outcomes were concentrated among shorter duration rides, suggesting that operational efficiency and pricing structure play a greater role in profitability than trip duration alone.
+This finding indicates that targeted pricing interventions may be more effective than uniform fare increases when improving platform profitability.
 
 ---
 
