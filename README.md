@@ -43,7 +43,7 @@ The analysis focuses on how trip distance, trip duration, surge pricing, driver 
 
 ## Project Objectives
 The objective of this analysis was to identify:
-1. Which trips are most profitable. Here we Analyze trip-level profitability
+1. Which trips are most profitable by Analyzing trip-level profitability
 2. Which operational factors drive margin compression by assessing operational margin performance
 3. Which pricing strategies reduce unprofitable rides most effectively
 4. How do we identify loss-making ride segments and understand their implications to other ride variables
