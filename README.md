@@ -37,11 +37,17 @@ Both are false. The data points to a single structural cause — and a narrow bu
 - Driver payouts were modeled as the primary operational cost component.
 - Congestion-heavy trips were assumed to increase operational exposure and reduce ride efficiency.
 
+This project analyzes ride level pricing within a simulated Nairobi ride hailing environment. The objective is to identify profitability drivers, evaluate operational inefficiencies, and simulate pricing strategies that could improve margins.
+
+The analysis focuses on how trip distance, trip duration, surge pricing, driver payouts and fuel costs influence profitability across thousands of rides
+
 ## Project Objectives
 The objective of this analysis was to identify:
-1. Which trips are most profitable
-2. Which operational factors drive margin compression
+1. Which trips are most profitable. Here we Analyze trip-level profitability
+2. Which operational factors drive margin compression by assessing operational margin performance
 3. Which pricing strategies reduce unprofitable rides most effectively
+4. How do we identify loss-making ride segments and understand their implications to other ride variables
+5. How do we Simulate pricing adjustment strategies
 
 ## The Approach
 - Analyzing trip level profitability
@@ -130,28 +136,6 @@ Contrary to common assumptions, the analysis suggested that longer rides were no
 ## Profit vs Distance
 
 ![Profit vs Distance](visuals/profit_vs_distance.png)
-
-## Peak vs Offpeak Profit
-
-![Peak vs Offpeak Profit](visuals/peak_vs_offpeak_profit.png)
-
----
-
-## Project Overview
-
-This project analyzes ride level pricing within a simulated Nairobi ride hailing environment. The objective was to identify profitability drivers, evaluate operational inefficiencies, and simulate pricing strategies that could improve margins.
-
-The analysis focuses on how trip distance, trip duration, surge pricing, driver payouts and fuel costs influence profitability across thousands of rides.
-
----
-# Objectives
-
-- Analyze trip-level profitability
-- Identify loss-making ride segments
-- Compare peak vs off-peak performance
-- Evaluate pricing inefficiencies
-- Simulate pricing adjustment strategies
-- Assess operational margin performance
 
 ---
 
